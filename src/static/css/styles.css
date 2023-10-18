@@ -1,43 +1,53 @@
 body {
-    background-color: #e6c8f7; /* Change background color */
-    margin-top: 30px; /* Adjust margin-top for a smaller margin */
-    font-family: 'Arial', sans-serif; /* Change font family */
+    background-color: #f4e8fd; /* Light lilac background */
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif; /* Keep the font */
 }
 
 .item {
-    background-color: #49275c; /* Light gray background */
-    padding: 20px; /* Increase padding for more space */
+    background-color: #fff; /* White background */
+    padding: 20px; /* Increased padding for more space */
     margin-bottom: 20px; /* Wider spacing between items */
-    border: 1px solid #ccc; /* Add a border */
-    border-radius: 10px; /* Increase border radius */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* A more pronounced box shadow */
-    transition: all 0.3s ease-in-out; /* Wider transition */
+    border: 1px solid #d1abff; /* Lilac border */
+    border-radius: 5px;
+    box-shadow: 0 0 1em #d1abff; /* Lilac box shadow */
+    transition: all .2s ease-in-out;
 }
 
 .item:hover {
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); /* Increase hover box shadow */
+    box-shadow: 0 0 1em #ae7aff; /* Lighter lilac box shadow on hover */
 }
 
 .item.completed {
     text-decoration: line-through;
-    color: #ffffff; /* Slightly lighter text color for completed items */
+    color: #8c5dbf; /* Darker lilac text color for completed items */
 }
 
 .toggles {
-    color:  #f0f0f0; /* Darken the color */
-    font-weight: bold; /* Make the text bold */
+    color: #8c5dbf; /* Darker lilac text color for the toggles */
 }
 
 .name {
-    padding-top: 10px; /* Increase padding top */
+    padding-top: 3px;
 }
 
 .remove {
-    padding-left: 10px; /* Increase padding left */
+    padding-left: 0;
 }
 
 button:focus {
-    border: 2px solid #f0f0f0; /* Thicker focus border */
-    outline: none; /* Remove the default browser outline */
+    border: 1px solid #8c5dbf; /* Darker lilac border on focus */
 }
 
+.add-button {
+    background-color: #8c5dbf; /* Lilac background for the "Add" button */
+    color: #fff; /* White text color for the "Add" button */
+    padding: 10px 20px; /* Adjust padding to fit the button content */
+    border: none; /* Remove the border */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #ae7aff; /* Lighter lilac background on hover */
+}
