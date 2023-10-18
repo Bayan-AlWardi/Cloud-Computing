@@ -1,39 +1,43 @@
 body {
-    background-color: #b5deaf;
-    margin-top: 50px;
-    font-family: 'Lato';
+    background-color: #e6c8f7; /* Change background color */
+    margin-top: 30px; /* Adjust margin-top for a smaller margin */
+    font-family: 'Arial', sans-serif; /* Change font family */
 }
 
 .item {
-    background-color: white;
-    padding: 15px;
-    margin-bottom: 15px;
-    border: transparent;
-    border-radius: 5px;
-    box-shadow: 0 0 1em #ccc;
-    transition: all .2s ease-in-out;
+    background-color: #49275c; /* Light gray background */
+    padding: 20px; /* Increase padding for more space */
+    margin-bottom: 20px; /* Wider spacing between items */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Increase border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* A more pronounced box shadow */
+    transition: all 0.3s ease-in-out; /* Wider transition */
 }
 
 .item:hover {
-    box-shadow: 0 0 1em #aaa;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); /* Increase hover box shadow */
 }
 
 .item.completed {
     text-decoration: line-through;
+    color: #ffffff; /* Slightly lighter text color for completed items */
 }
 
 .toggles {
-    color: black;
+    color:  #f0f0f0; /* Darken the color */
+    font-weight: bold; /* Make the text bold */
 }
 
 .name {
-    padding-top: 3px;
+    padding-top: 10px; /* Increase padding top */
 }
 
 .remove {
-    padding-left: 0;
+    padding-left: 10px; /* Increase padding left */
 }
 
 button:focus {
-    border: 1px solid #333;
+    border: 2px solid #f0f0f0; /* Thicker focus border */
+    outline: none; /* Remove the default browser outline */
 }
+
