@@ -20,7 +20,7 @@ services:
       - 8080:3000
     working_dir: /app
     volumes:
-      - ../Cloud-Computing/app
+      - ../Cloud-Computing:/app
     environment:
       MYSQL_HOST: mysql
       MYSQL_USER: root
